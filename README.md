@@ -73,7 +73,7 @@ Random quantum circuits are generated using Qiskit's `random_circuit()` function
 
 ### Transpilation
 
-The random circuit generator produces composite gates (e.g., `rxx`, `ryy`, `rzz`) that are not natively supported by all simulator backends. Transpilation to basic gates ensures identical quantum operations across CPU and GPU backends
+The random circuit generator produces composite gates (e.g., `XX + YY`, `XX – YY`) that are not natively supported by all simulator backends. Transpilation to basic gates ensures identical quantum operations across CPU and GPU backends
 
 ![Example circuit](./plots/example_circuit.png)
 
